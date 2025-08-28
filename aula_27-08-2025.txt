@@ -11,7 +11,7 @@ fracionários, podendo ser posi vos ou nega vos. (Conj. dos N e Z)
 Ex.:  24 - número inteiro positivo 
        0 - número inteiro 
      -12 - número inteiro negativo
-
+---------------------------------------------------------------------------
 programa
 {
 	
@@ -23,15 +23,18 @@ programa
 		escreva( "Sua idade é: "+idade)
 	}
 }
-
-//Crie um cadastro que receba carro no estacionamento, e 'imprima para o usuario as informações.
+---------------------------------------------------------------------------
+// Crie um cadastro que receba carro no estacionamento, e imprima para o usuario as informações.
 
 programa
 {
 	
 	funcao inicio()
 	{
-		cadeia placa, modelo, cor, horaEntrada
+		cadeia placa
+		cadeia modelo
+		cadeia cor
+		cadeia horaEntrada
 		inteiro vaga
 		escreva ("Entre com a placa: ")
 		leia (placa)
@@ -43,10 +46,13 @@ programa
 		leia (vaga)
 		escreva ("Entre com a hora de entrada: ")
 		leia (horaEntrada)
-		escreva ("Informações: placa: "+placa+" | modelo: "+modelo+" | cor: "+cor+" hora de entrada: "+horaEntrada)
+		escreva ("Informações: placa: "+placa+" | modelo: "+modelo+" | cor: "+cor+" | hora de entrada: "+horaEntrada)
 	}
 }
+---------------------------------------------------------------------------
 
+
+---------------------------------------------------------------------------
 // Faça um controle de orçamento que receba cinco produtos e valor de cada produto, calcule o valor total de produtos, 
 // imprima produto/valor - total de produtos.
 
