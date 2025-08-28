@@ -24,6 +24,42 @@ programa
 	}
 }
 ---------------------------------------------------------------------------
+// 1. Cadastro de aluno que receba as seguintes informações (Número da Matricula, Nome, Idade, Sexo, Celular e E-mail) e imprima os valores.
+programa
+{
+	funcao inicio()
+	{
+ 
+    inteiro matricula
+    cadeia nome
+    inteiro idade
+    cadeia sexo
+    cadeia celular
+    cadeia email
+ 
+    escreva("Digite o número da matrícula: ")
+    leia(matricula)
+    escreva("Digite o nome do aluno: ")
+    leia(nome)
+    escreva("Digite a idade do aluno: ")
+    leia(idade)
+    escreva("Digite o sexo do aluno: ")
+    leia(sexo)
+    escreva("Digite o celular do aluno: ")
+    leia(celular)
+    escreva("Digite o e-mail do aluno: ")
+    leia(email)
+
+    escreva("\n------ Cadastro do Aluno ------\n\n")
+    escreva("Número da matrícula: "+matricula+"\n")
+    escreva("Nome: "+nome+"\n")
+    escreva("Idade: "+idade+"\n")
+    escreva("Sexo: "+sexo+"\n")
+    escreva("Celular: "+celular+"\n")
+    escreva("E-mail: "+email+"\n")
+	}
+}
+---------------------------------------------------------------------------
 // Crie um cadastro que receba carro no estacionamento, e imprima para o usuario as informações.
 
 programa
