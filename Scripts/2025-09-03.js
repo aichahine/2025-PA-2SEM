@@ -25,14 +25,14 @@ if (hora >= 6 && hora < 12) {
 
 // Fim de semana ou dia útil
 dia = "segunda"
-if(dia=="segunda" || dia=="terça" || dia=="quarta" || dia=="quinta" || dia=="sexta") {
+if(dia==="segunda" || dia==="terça" || dia==="quarta" || dia==="quinta" || dia==="sexta") {
     console.log("Dia útil")
 } else {
     console.log("Fim de semana")
 }
 
 dia = "sábado"
-if(dia=="sábado" || dia=="domingo") {
+if(dia==="sábado" || dia==="domingo") {
     console.log("Fim de semana")
 } else {
     console.log("Dia útil")
