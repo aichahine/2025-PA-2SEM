@@ -3,7 +3,7 @@
 /* 8. Faça um programa que receba a idade da pessoa e informe se ela é maior ou menor de 
 idade */
 idade = 15;
-if (idade >= 18) {
+if (idade > 18) {
     console.log("08. Esta pessoa tem " + idade + " anos de idade. Esta pessoa é maior.");
 } else {
     console.log("08. Esta pessoa tem " + idade + " anos de idade. Esta pessoa é menor.");
