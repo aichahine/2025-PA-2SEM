@@ -1,2 +1,2 @@
-# dev_sist
-Atividades do primeiro semestre do curso Desenvolvimento de Sistemas noturno da Etec Professor Camargo Aranha
+# 2025-PA-2SEM
+Tarefas das aulas de Programacao e Algoritmos, primeiro semestre do curso tecnico de Desenvolvimento de Sistemas, segundo semestre de 2025 - periodo noturno, da Etec Professor Camargo Aranha

@@ -1,17 +1,5 @@
-Tipos de Dados
+// Aula do professor Juarez, 27 de agosto de 2025
 
-Dados Numéricos  
-Tornando ao aspecto computacional, os dados numéricos representáveis em 
-um computador são divididos em apenas duas classes: os INTEIROS e os REAIS  
-
-Dados Numéricos Inteiros  
-Os números inteiros são aqueles que não possuem componentes decimais ou 
-fracionários, podendo ser positivos ou nega vos. (Conj. dos N e Z)  
-
-Ex.:  24 - número inteiro positivo 
-       0 - número inteiro 
-     -12 - número inteiro negativo
----------------------------------------------------------------------------
 programa
 {
 	
@@ -23,7 +11,8 @@ programa
 		escreva( "Sua idade é: "+idade)
 	}
 }
----------------------------------------------------------------------------
+
+
 // 1. Cadastro de aluno que receba as seguintes informações (Número da Matricula, Nome, Idade, Sexo, Celular e E-mail) e imprima os valores.
 programa
 {
@@ -56,7 +45,7 @@ programa
     escreva("------ Fim ------")
 	}
 }
----------------------------------------------------------------------------
+
 // 2. Faça um controle de orçamento que receba cinco produtos e valor de cada produto, calcule o valor total de produtos, 
 // imprima produto/valor - total de produtos.
 
@@ -104,7 +93,7 @@ programa
     escreva ("\n------ Fim ------")
 	}
 }
----------------------------------------------------------------------------
+
 // 3. Crie um cadastro que receba carro no estacionamento, e imprima para o usuario as informações.
 
 programa

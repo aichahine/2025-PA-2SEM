@@ -1,3 +1,5 @@
+// Programas criados para os fluxogramas das atividades do professor Juarez
+
 /* Criar um algoritmo que receba a idade e verifique se a Idade é maior que 18, e escreva quando maior e menor. */
 // recebe a idade
 // compara a idade com 18
@@ -13,7 +15,6 @@ if (idade > 18 && idade) {
 } else {
     console.log("A idade é " + idade + ". É menor que 18.")
 };
-
 
 /* Criar um algoritmo que controle o valor de gasto do vale transporte, quando o saldo menor que o valor da passagem mostrar para o passageiro sem saldo suficiente. */
 // recebe o saldo

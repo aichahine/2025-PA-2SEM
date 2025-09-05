@@ -1,4 +1,25 @@
-// Exercícios faltantes da aula de 13 de agosto de 2025
+// Aula da professora Aline, 27 de agosto de 2025
+// Incremento
+
+num1 = 5;
+console.log("Variável: "+num1+"\n");
+console.log("Incremento: "+(++num1));
+console.log("Incremento: "+(num1++)+"\n");
+
+// Decremento
+console.log("Decremento: "+(--num1));
+console.log("Decremento: "+(num1--)+"\n");
+
+// Operadores de comparação
+console.log("Comparando inteiros: "+5==10); // false
+console.log("Comparando valores: "+(5=='5')); // true
+console.log("Comparando interger e string: "+(5==='5')+"\n"); //false
+
+// Negação
+console.log("Comparando inteiros: "+5!=10); // true
+
+
+// Exercícios faltantes da aula do dia 13 de agosto de 2025
 
 /* 8. Faça um programa que receba a idade da pessoa e informe se ela é maior ou menor de 
 idade */

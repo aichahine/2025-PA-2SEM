@@ -1,4 +1,4 @@
-// Aula de 13 de agosto de 2025
+// Aula da professora Aline, 13 de agosto de 2025
 
 /* 1. Escreva um programa em JavaScript que mostre na tela a mensagem “Bom dia, Mundo!!!”. */
 variavel = "Bom dia, Mundo!";
