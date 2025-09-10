@@ -1,13 +1,13 @@
 # 03-09-2025
 > Programação
   Condicionais
-> Algoritmos
+| Algoritmos
   Portugol - condicional simples
 
 # 27-08-2025
 > Programação
   Correção dos exercícios
-> Algoritmos
+| Algoritmos
   Portugol
 
 # 20-08-2025
@@ -17,14 +17,14 @@
 # 13-08-2025
 > Programação
   Primeiros exercícios
-> Algoritmos
+| Algoritmos
   Diagrama de bloco e quadros
   Estrutura de operação de sequência | de decisão | de repetição
 
 # 06-08-2025
 > Programação
   Tipos de variáveis mais usados (string, int, float, boolean)
-> Algoritmos
+| Algoritmos
   Atividades - sequências de instruções
 
 # 30-07-2025
