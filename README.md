@@ -1,3 +1,6 @@
+# 10-09-2025
+> Algoritmos: portugol - condicional composta (se | senão) e condicionais encadeadas
+
 # 03-09-2025
 > Programação: condicionais 
 | Algoritmos: portugol - condicional simples
