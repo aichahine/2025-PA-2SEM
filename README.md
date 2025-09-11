@@ -1,5 +1,6 @@
 # 10-09-2025
 > Algoritmos: portugol - condicional composta (se | senão) e condicionais encadeadas
+| Programação: condicional switch-case
 
 # 03-09-2025
 > Programação: condicionais 
