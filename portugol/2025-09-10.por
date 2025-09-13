@@ -1,21 +1,23 @@
 // Aula do professor Juarez, 10 de setembro de 2025
-// Condicional composta
+// Condicional composta - exemplo abaixo feito em aula
 programa
 {
 	funcao inicio()
 	{
- 
-		inteiro x
-		inteiro y
+		inteiro x, y
  
 		escreva("Receba o valor de x: ")
 		leia(x)
 		escreva("Receba o valor de y: ")
 		leia(y)
  
-		se ( x > y )
+		se(x>y)
 		{
-			escreva(x)
+			escreva("x maior que Y")
+		}se(y>x){
+			escreva("Y maior que X")
+			}senao{
+				escreva("X e Y iguais")
 		}
 	}
 }
@@ -72,9 +74,12 @@ programa
 	funcao inicio()
 	{
 		caracter sexo
+		inteiro idade
 		real altura
 		real peso
  
+		escreva ("Digite a sua idade: ")
+		leia(idade)
 		escreva("Digite o sexo em caixa alta (M ou F): ")
 		leia(sexo)
 		escreva("Digite a altura (separada por ponto): ")
