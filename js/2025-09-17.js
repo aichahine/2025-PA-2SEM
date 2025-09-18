@@ -2,7 +2,7 @@
 
 // 1. Faça um programa que receba a idade da pessoa e informe se ela é maior ou menor de 
 // idade
-idade = 15;
+var idade = 15;
 if (idade >= 18) {
     console.log("08. Esta pessoa tem " + idade + " anos de idade. Esta pessoa é maior.");
 } else {
@@ -11,7 +11,7 @@ if (idade >= 18) {
 
 // 2. Faça um programa que receba a idade da pessoa e informe se o voto é: não pode 
 // votar, voto opcional, pode votar
-idadeVoto = 70;
+var idadeVoto = 70;
 if (idadeVoto < 16) {
     console.log("09. Esta pessoa tem " + idadeVoto + " anos de idade. Não pode votar.");
 } else if ((idadeVoto >= 16 && idadeVoto < 18) || (idadeVoto >= 70)) { // && indica "e" e || indica "ou"
@@ -22,10 +22,10 @@ if (idadeVoto < 16) {
 
 // 3. Faça um programa que receba a 3 notas do aluno, calcule a média e se a nota for 
 // maior que 6 aprovado, caso contrario reprovado
-primeiraNota = 5;
-segundaNota = 5;
-terceiraNota = 4;
-mediaAluno = (primeiraNota + segundaNota + terceiraNota) / 3;
+var primeiraNota = 5;
+var segundaNota = 5;
+var terceiraNota = 4;
+var mediaAluno = (primeiraNota + segundaNota + terceiraNota) / 3;
 if (mediaAluno > 6) {
     console.log("10. A média do aluno é " + mediaAluno.toFixed(1) + ". Ele está aprovado.")
 } else {
@@ -33,7 +33,7 @@ if (mediaAluno > 6) {
 };
 
 // 4. Faça um programa que demonstre se o número é positivo ou negativo.
-numero = 0;
+var numero = 0;
 if (numero > 0 && numero != 0) {
     console.log(`O número ${numero} é positivo.\n`)
 } else if (numero < 0) {
@@ -43,8 +43,8 @@ if (numero > 0 && numero != 0) {
 }
 
 // 5. Faça um programa que demonstre se o número é par ou impar
-numero = 3
-if (numero /= 2 == 0) {
+var numero = 3
+if (numero % 2 === 0) {
     console.log(`O número ${numero} é par.\n`)
 } else {
     console.log(`O número ${numero} é ímpar.\n`)
@@ -52,7 +52,7 @@ if (numero /= 2 == 0) {
 
 // 6. Faça um programa que classifique a pessoa: menor que 13 Criança, menor que 18 
 // adolescente, menor que 60 adulto, maior que 60 idoso
-pessoa = 39;
+var pessoa = 39;
 if (pessoa < 13) {
     console.log(`Esta pessoa tem ${pessoa} anos, é uma criança.\n`)
 } else if (pessoa >= 13 && pessoa < 18) {
@@ -65,5 +65,18 @@ if (pessoa < 13) {
     console.log(`Se você é jovem ainda, amanhã velho será.\n`)
 }
 
-
 // 7. Faça uma calculadora que faça as funções +,-,* e / . Utilizando a estrutura de decisão
+var funcao = "/"
+var numero1 = 4
+var numero2 = 4
+if(funcao === "+") {
+    console.log(`Soma: ${numero1 + numero2}.\n`);
+} else if(funcao === "-") {
+    console.log(`Subtração: ${numero1 - numero2}.\n`);
+} else if(funcao === "*") {
+    console.log(`Multiplicação: ${numero1 * numero2}\.`);
+} else if(operacao === "/") {
+    console.log(`Divisão: ${numero1 % numero2}.\n`);
+} else {
+    console.log(`Função inválida`)
+}
