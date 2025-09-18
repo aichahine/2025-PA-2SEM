@@ -1,14 +1,18 @@
+# 17-09-2025
+> Algoritmos: pseudocódigo - condicional caso
+| Programação: lista de exercícios if-else e switch-case
+
 # 10-09-2025
-> Algoritmos: portugol - condicional composta (se | senão) e condicionais encadeadas
+> Algoritmos: pseudocódigo - condicional composta (se | senão) e condicionais encadeadas
 | Programação: condicional switch-case
 
 # 03-09-2025
 > Programação: condicionais 
-| Algoritmos: portugol - condicional simples
+| Algoritmos: pseudocódigo - condicional simples
 
 # 27-08-2025
 > Programação: correção dos exercícios
-| Algoritmos: portugol
+| Algoritmos: pseudocódigo
 
 # 20-08-2025
 > Algoritmos: correção de atividade
