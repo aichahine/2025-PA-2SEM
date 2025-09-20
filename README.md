@@ -7,23 +7,23 @@
 | Programação: condicional switch-case
 
 # 03-09-2025
-> Programação: condicionais 
-| Algoritmos: pseudocódigo - condicional simples
+> Algoritmos: pseudocódigo - condicional simples
+| Programação: condicionais 
 
 # 27-08-2025
-> Programação: correção dos exercícios
-| Algoritmos: pseudocódigo
+> Algoritmos: pseudocódigo
+| Programação: correção dos exercícios
 
 # 20-08-2025
 > Algoritmos: correção de atividade
 
 # 13-08-2025
-> Programação: primeiros exercícios
-| Algoritmos: diagrama de bloco e quadros + estrutura de operação de sequência | de decisão | de repetição
+> Algoritmos: diagrama de bloco e quadros + estrutura de operação (de sequência, de decisão e de repetição)
+| Programação: primeiros exercícios
 
 # 06-08-2025
-> Programação: tipos de variáveis mais usados (string, int, float, boolean)
-| Algoritmos: atividades - sequências de instruções
+> Algoritmos: atividades - sequências de instruções
+| Programação: tipos de variáveis mais usados (string, int, float, boolean)
 
 # 30-07-2025
 > Algoritmos: resolver a "torre de Hanoi" e escrever o algoritmo
