@@ -1,6 +1,5 @@
 // Aula da professora Aline, 27 de agosto de 2025
 // Incremento
-
 num1 = 5;
 console.log("Variável: "+num1+"\n");
 console.log("Incremento: "+(++num1));

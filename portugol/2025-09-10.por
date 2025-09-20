@@ -2,9 +2,11 @@
 // Condicional composta - exemplo abaixo feito em aula
 programa
 {
+	
+	inteiro x, y
+	
 	funcao inicio()
 	{
-		inteiro x, y
  
 		escreva("Receba o valor de x: ")
 		leia(x)
@@ -16,8 +18,8 @@ programa
 			escreva("x maior que Y")
 		}se(y>x){
 			escreva("Y maior que X")
-			}senao{
-				escreva("X e Y iguais")
+		}senao{
+			escreva("X e Y iguais")
 		}
 	}
 }
@@ -26,9 +28,11 @@ programa
 // 1. Fazer um programa que leia a idade de uma pessoa e verificar se ela tem 18 anos ou mais. Se tiver, emitir a mensagem "Permitido" senão emitir a mensagem "Não permitido”. 
 programa
 {
+	
+	inteiro idade
+	
 	funcao inicio()
 	{
-		inteiro idade
  
 		escreva("Digite a idade: ")
 		leia(idade)
@@ -47,36 +51,40 @@ programa
 // 2. Elaborar um programa que leia a avaliação de um aluno. Se a avaliação for A, B ou C, escrever a mensagem "Promovido". Se for D ou E, escrever a mensagem "Retido". Se não for nenhuma delas, escrever "Avaliação Inválida". 
 programa 
 {
-  funcao inicio()
-  {
-    caracter avaliacao
 
-    escreva("Digite uma dessas notas em caixa alta (A - B - C - D - E): ")
-    leia(avaliacao)
+	caracter avaliacao
+  		
+	funcao inicio()
+  	{
+    	escreva("Digite uma dessas notas em caixa alta (A - B - C - D - E): ")
+    	leia(avaliacao)
 
-    se(avaliacao=='A' ou avaliacao=='B' ou avaliacao=='C')
-    {
-      escreva("Promovido")
-    }
-    senao se (avaliacao=='D' ou avaliacao=='E')
-    {
-      escreva("Retido")
-    }
-    senao
-      escreva("Avaliacao invalida")
-    }
-  }
+    	se(avaliacao=='A' ou avaliacao=='B' ou avaliacao=='C')
+    	{
+    		escreva("Promovido")
+    	}
+    	senao se (avaliacao=='D' ou avaliacao=='E')
+    	{
+      		escreva("Retido")
+    	}
+    	senao
+      		escreva("Avaliacao invalida")
+		}
+   	}
+}
  
 
 // 3. Fazer um programa que leia a idade de uma pessoa. Emitir a mensagem "Aceito" se a pessoa for do sexo masculino(M), altura mínima de 1,80m e peso igual ou maior que 75k. 
 programa
 {
+
+	caracter sexo
+	inteiro idade
+	real altura
+	real peso
+
 	funcao inicio()
 	{
-		caracter sexo
-		inteiro idade
-		real altura
-		real peso
  
 		escreva ("Digite a sua idade: ")
 		leia(idade)
@@ -103,11 +111,12 @@ programa
 // - para mulheres: (62.1 * ALTURA) – 44.7
 programa
 {
+	real altura
+	real pesoIdeal
+	caracter sexo
+	
 	funcao inicio()
 	{
-		real altura
-		real pesoIdeal
-		caracter sexo
  
 		escreva("Digite a altura em metros (1.75): ")
 		leia(altura)

@@ -2,9 +2,10 @@
 // Estrutura caso: exemplo do slide
 programa
 {
+	caracter operador
+
 	funcao inicio()
 	{
-		caracter operador
 		escreva("Entre com operador: ")
 		leia(operador)
 		escolha(operador)
@@ -32,12 +33,12 @@ programa
 // 9 - Manchete
 // 11 - Gazeta
 // 13 - Bandeirantes
-
 programa
 {
+	inteiro canal
+
 	funcao inicio()
 	{
-		inteiro canal
 		escreva("Entre com o numero do canal: ")
 		leia(canal)
 		escolha(canal)
@@ -77,12 +78,12 @@ programa
 }
 
 // 2- Crie um programa que verifique o Saldo de um cartão, e diga se o saldo é positivo, negativo ou zerado
-
 programa
 {
+	real saldo
+
 	funcao inicio()
 	{
-		real saldo
 		escreva("Digite o saldo do cartao: ")
 		leia(saldo)
  
@@ -108,12 +109,13 @@ programa
 // De 2.826,66 até 3.751,05			15					394,16
 // De 3.751,06 até 4.664,68			22,5				675,49
 // Acima de 4.664,68		    	27,5				908,73
-
 programa {
+  
+  real aliquota
+  real parcela
+  real salario
+
   funcao inicio() {
-    real aliquota
-    real parcela
-    real salario
 
     escreva("Entre com o salario: ")
     leia(salario)
@@ -163,12 +165,12 @@ programa {
 // B - Bom
 // R - Regular
 // I - Irregular
-
 programa
 {
+	cadeia mencao
+	
 	funcao inicio()
 	{
-		cadeia mencao
 		escreva("Entre com a mencao: ")
 		leia(mencao)
 		escolha(mencao)
@@ -181,13 +183,13 @@ programa
 			escreva("B - Bom")
 			pare
 
-      caso"R":
-      escreva("R - Regular")
-      pare
+      		caso"R":
+      		escreva("R - Regular")
+      		pare
 
-      caso"I":
-      escreva("I - Irregular")
-      pare
+      		caso"I":
+      		escreva("I - Irregular")
+      		pare
 
 			caso contrario:
 			escreva("Entrada invalida.")
@@ -196,47 +198,46 @@ programa
 }
 
 // 5 - Crie um programa que calcule o IMC do seu cliente na academia
-
-programa {
-  funcao inicio() {
-    real peso
-    real altura
+programa 
+{
+  
+  	real peso
+  	real altura
   	real imc
+  
+  	funcao inicio() 
+  	{
 
-    escreva("Entre com o peso em quilos (por exemplo: 75): ")
-    leia(peso)
-    escreva("Entre com a altura em metros (por exemplo: 1.70): ")
-    leia(altura)
-	imc = (peso/(altura*altura))
+    	escreva("Entre com o peso em quilos (por exemplo: 75): ")
+    	leia(peso)
+    	escreva("Entre com a altura em metros (por exemplo: 1.70): ")
+    	leia(altura)
+		imc = (peso/(altura*altura))
 
-	  se (imc < 18.5)
-    {
-      escreva("IMC: ",imc," - classificação: magreza.")
-    }
+	  	se (imc < 18.5)
+    	{
+      		escreva("IMC: ",imc," - classificação: magreza.")
+    	}
 
-    senao se (imc >= 18.5 e imc <= 24.9)
-    {
-      escreva("IMC: ",imc," - classificação: normal.")
-    }
-
-    senao se (imc >= 25 e imc <=29.9)
-    {
-      escreva("IMC: ",imc," - classificação: sobrepeso.")
-    }
-
-    senao se (imc >= 30 e imc <= 39.9)
-    {
-      escreva("IMC: ",imc," - classificação: obesidade.")
-    }
-
-    senao se (imc > 40)
-    {
-      escreva("IMC: ",imc," - classificação: obesidade grave.")
-    }
-
-    senao
-    {
-      escreva("Entrada invalida.")
-    }
-  }
+    	senao se (imc >= 18.5 e imc <= 24.9)
+    	{
+      		escreva("IMC: ",imc," - classificação: normal.")
+    	}
+    	senao se (imc >= 25 e imc <=29.9)
+    	{
+      		escreva("IMC: ",imc," - classificação: sobrepeso.")
+    	}
+    	senao se (imc >= 30 e imc <= 39.9)
+    	{
+      		escreva("IMC: ",imc," - classificação: obesidade.")
+		}
+    	senao se (imc > 40)
+    	{
+      		escreva("IMC: ",imc," - classificação: obesidade grave.")
+    	}
+    	senao
+    	{
+      		escreva("Entrada invalida.")
+    	}
+  	}
 }

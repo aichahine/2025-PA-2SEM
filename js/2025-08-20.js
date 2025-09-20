@@ -6,7 +6,6 @@
 // se a idade é maior que 18, exibe maior
 // se a idade é igual a 18, exibe igual
 // se a idade é menor que 18, exibe menor
-
 idade = 17;
 if (idade > 18 && idade) {
     console.log("A idade é " + idade + ". É maior que 18.")
@@ -21,7 +20,6 @@ if (idade > 18 && idade) {
 // compara o saldo com o valor da passagem
 // se o saldo é maior que o valor da passagem, desconta o valor da passagem
 // se o saldo é menor que o valor da passagem, exibe 'sem saldo suficiente'
-
 passagem = 5;
 saldo = 10;
 novoSaldo = saldo-passagem;
@@ -50,7 +48,6 @@ switch (true) {
 // compara a nota com a situacao
 // se a nota e A, B ou C, exibe 'Promovido'
 // se a nota e D ou E, exibe 'Retido'
-
 nota='E';
   if (["A", "B", "C"].includes(nota)) {
     console.log("Promovido");
