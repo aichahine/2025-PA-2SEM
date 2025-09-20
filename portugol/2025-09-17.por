@@ -1,6 +1,5 @@
 // Aula do professor Juarez, 17 de setembro de 2025. Chegou às 19h08, a aula começou às 19h47
-// Estrutura caso
-
+// Estrutura caso: exemplo do slide
 programa
 {
 	funcao inicio()
@@ -24,7 +23,7 @@ programa
 	}
 }
 
-// Criar um programa que simula um seletor de canal de TV
+// 1 - Criar um programa que simula um seletor de canal de TV
 // Canais:
 // 2 - Cultura
 // 4 - SBT
@@ -77,7 +76,8 @@ programa
 	}
 }
 
-// Crie um programa que verifique o Saldo de um cartão, e diga se o saldo é positivo, negativo ou zerado
+// 2- Crie um programa que verifique o Saldo de um cartão, e diga se o saldo é positivo, negativo ou zerado
+
 programa
 {
 	funcao inicio()
@@ -101,46 +101,64 @@ programa
 	}
 }
 
-// Crie um programa que o usuário entre com o salário e verifique qual percentual de imposto de renda o contribuinte irá pagar e calcule o valor do imposto 
+// 3 - Crie um programa que o usuário entre com o salário e verifique qual percentual de imposto de renda o contribuinte irá pagar e calcule o valor do imposto 
 // de acordo com a tabela abaixo:
 // Base de Cálculo (R$)			Alíquota (%)	Parcela a Deduzir do IR (R$)
 // De 2.428,81 até 2.826,65			7,5					182,16
 // De 2.826,66 até 3.751,05			15					394,16
 // De 3.751,06 até 4.664,68			22,5				675,49
-// Acima de 4.664,68				27,5				908,73
+// Acima de 4.664,68		    	27,5				908,73
 
-programa
-{
-	funcao inicio()
-	{
-		real salario
-		escreva("Digite o salario: ")
-		leia(salario)
- 
-		se(salario >= 2428.81 e salario <= 2826.65)
-		{
-			escreva("Alíquota 7,5% e Parcela a Deduzir do IR R$182,16")
-		}
-		senao se (salario >= 2826.66 e salario <= 3751.05)
-		{
-			escreva("Alíquota 15% e Parcela a Deduzir do IR R$394,16")
-		}
-    	senao se(salario >= 3751.06 e salario <= 4664.68)
-    	{
-      	escreva("Alíquota 22,5% e Parcela a Deduzir do IR R$675,49")
-    	}
-    	senao se (salario > 4664.68)
-    	{
-      	escreva("Alíquota 27,5% e Parcela a Deduzir do IR R$908,73")
-    	}
-    	senao
-    	{
-      	escreva("Entrada invalida.")
-    	}
-	}
+programa {
+  funcao inicio() {
+    real aliquota
+    real parcela
+    real salario
+
+    escreva("Entre com o salario: ")
+    leia(salario)
+
+    se (salario < 2428.81)
+    {
+      escreva("Salario isento.")
+    }
+
+    senao se (salario >= 2428.81 e salario <= 2826.65)
+    {
+      aliquota = 7.5
+      parcela = 182.16
+      escreva("Percentural de imposto de renda: ",aliquota,"% e valor do imposto: R$",((salario * (aliquota / 100)) - parcela))
+    }
+
+    senao se (salario >= 2826.66 e salario <= 3751.05)
+    {
+      aliquota = 15
+      parcela = 394.16
+      escreva("Percentural de imposto de renda: ",aliquota,"% e valor do imposto: R$",((salario * (aliquota / 100)) - parcela))
+    }
+
+    senao se(salario >= 3751.06 e salario <= 4664.68)
+    {
+      aliquota = 22.5
+      parcela = 675.49
+      escreva("Percentural de imposto de renda: ",aliquota,"% e valor do imposto: R$",((salario * (aliquota / 100)) - parcela))
+    }
+
+    senao se (salario > 4664.68)
+    {
+      aliquota = 27.5
+      parcela = 908.73
+      escreva("Percentural de imposto de renda: ",aliquota,"% e valor do imposto: R$",((salario * (aliquota / 100)) - parcela))
+    }
+
+    senao
+    {
+      escreva("Entrada invalida.")
+    }
+  }
 }
 
-// Crie um programa que o aluno digita a menção e responda para o aluno:
+// 4 - Crie um programa que o aluno digita a menção e responda para o aluno:
 // MB - Muito bom
 // B - Bom
 // R - Regular
@@ -177,9 +195,48 @@ programa
 	}
 }
 
-// Crie um programa que calcule o IMC do seu cliente na academia
+// 5 - Crie um programa que calcule o IMC do seu cliente na academia
 
+programa {
+  funcao inicio() {
+    real peso
+    real altura
+  	real imc
 
+    escreva("Entre com o peso em quilos (por exemplo: 75): ")
+    leia(peso)
+    escreva("Entre com a altura em metros (por exemplo: 1.70): ")
+    leia(altura)
+	imc = (peso/(altura*altura))
 
+	  se (imc < 18.5)
+    {
+      escreva("IMC: ",imc," - classificação: magreza.")
+    }
 
+    senao se (imc >= 18.5 e imc <= 24.9)
+    {
+      escreva("IMC: ",imc," - classificação: normal.")
+    }
 
+    senao se (imc >= 25 e imc <=29.9)
+    {
+      escreva("IMC: ",imc," - classificação: sobrepeso.")
+    }
+
+    senao se (imc >= 30 e imc <= 39.9)
+    {
+      escreva("IMC: ",imc," - classificação: obesidade.")
+    }
+
+    senao se (imc > 40)
+    {
+      escreva("IMC: ",imc," - classificação: obesidade grave.")
+    }
+
+    senao
+    {
+      escreva("Entrada invalida.")
+    }
+  }
+}

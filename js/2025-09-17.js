@@ -75,7 +75,7 @@ if(funcao === "+") {
     console.log(`Subtração: ${numero1 - numero2}.\n`);
 } else if(funcao === "*") {
     console.log(`Multiplicação: ${numero1 * numero2}\.`);
-} else if(operacao === "/") {
+} else if(funcao === "/") {
     console.log(`Divisão: ${numero1 % numero2}.\n`);
 } else {
     console.log(`Função inválida`)
